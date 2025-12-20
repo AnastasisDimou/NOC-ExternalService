@@ -1,0 +1,5 @@
+spring:
+   application:
+      name: NOC SERVICES
+server:
+   port: 8081

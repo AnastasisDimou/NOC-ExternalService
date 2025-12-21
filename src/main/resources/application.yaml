@@ -3,3 +3,14 @@ spring:
       name: NOC SERVICES
 server:
    port: 8081
+
+springdoc:
+   api-docs:
+      path: /v3/api-docs
+   swagger-ui:
+      path: /swagger-ui.html
+
+routee:
+   app-id: 5bba56ece4b0a43fbf239aae
+   app-secret: kDsvtwHe3w
+   sender: NOC

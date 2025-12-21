@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "routee",
+      "type": "gr.hua.dit.noc.config.RouteeProperties",
+      "description": "Routee SMS configuration."
+    }
+  ],
+  "properties": [
+    {
+      "name": "routee.app-id",
+      "type": "java.lang.String",
+      "description": "Routee application id."
+    },
+    {
+      "name": "routee.app-secret",
+      "type": "java.lang.String",
+      "description": "Routee application secret."
+    },
+    {
+      "name": "routee.sender",
+      "type": "java.lang.String",
+      "description": "Default SMS sender id."
+    }
+  ]
+}

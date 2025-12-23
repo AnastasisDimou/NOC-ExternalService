@@ -15,9 +15,9 @@ public class InMemoryCitizenRegistry implements CitizenRegistry {
 
    @PostConstruct
    public void registerInitialData() {
-      register(new Citizen("1", "123456789", "01019912345", "Nikos", "Papadopoulos", "1111"));
-      register(new Citizen("2", "987654321", "02028898765", "Eleni", "Georgiou", "2222"));
-      register(new Citizen("3", "555555555", "15057855555", "Maria", "Ioannou", "3333"));
+      register(new Citizen("1", "123456789", "11111111111", "Giorgos", "Papadopoulos", "1111"));
+      register(new Citizen("2", "987654321", "22222222222", "Maria", "Ioannou", "2222"));
+      register(new Citizen("3", "555555555", "33333333333", "Admin", "User", "3333"));
    }
 
    @Override

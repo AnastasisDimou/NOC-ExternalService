@@ -4,6 +4,11 @@
       "name": "routee",
       "type": "gr.hua.dit.noc.config.RouteeProperties",
       "description": "Routee SMS configuration."
+    },
+    {
+      "name": "noc.gov.jwt",
+      "type": "gr.hua.dit.noc.gov.jwt.GovJwtProperties",
+      "description": "Mock gov JWT configuration."
     }
   ],
   "properties": [
@@ -21,6 +26,26 @@
       "name": "routee.sender",
       "type": "java.lang.String",
       "description": "Default SMS sender id."
+    },
+    {
+      "name": "noc.gov.jwt.secret",
+      "type": "java.lang.String",
+      "description": "HS256 signing secret used for gov JWTs."
+    },
+    {
+      "name": "noc.gov.jwt.issuer",
+      "type": "java.lang.String",
+      "description": "Issuer claim for gov JWTs."
+    },
+    {
+      "name": "noc.gov.jwt.audience",
+      "type": "java.lang.String",
+      "description": "Audience claim for gov JWTs."
+    },
+    {
+      "name": "noc.gov.jwt.ttlSeconds",
+      "type": "java.lang.Long",
+      "description": "Token lifetime in seconds."
     }
   ]
 }

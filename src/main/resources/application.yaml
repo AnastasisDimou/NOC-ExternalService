@@ -10,6 +10,14 @@ springdoc:
    swagger-ui:
       path: /swagger-ui.html
 
+noc:
+   gov:
+      jwt:
+         secret: "change-me-to-32-characters-minimum-secret"
+         issuer: "noc-mock-gov"
+         audience: "mycitygov"
+         ttlSeconds: 900
+
 routee:
    app-id: 5bba56ece4b0a43fbf239aae
    app-secret: kDsvtwHe3w

@@ -22,7 +22,7 @@ public class OpenApiConfig {
    public GroupedOpenApi apiGroup() {
       return GroupedOpenApi.builder()
             .group("api")
-            .packagesToScan("gr.hua.dit.noc.web.rest")
+            .packagesToScan("gr.hua.dit.noc")
             .pathsToMatch("/api/v1/**")
             .build();
    }
